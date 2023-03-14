@@ -1,0 +1,82 @@
+.input {
+  border: 2px solid transparent;
+  outline: none;
+  padding-inline: 12px;
+  border-radius: 8px;
+  height: 50px;
+  background-color: #edf2f7;
+  font-size: large;
+  width: -webkit-fill-available;
+  transition-property: background-color, border-color, color, fill, stroke,
+    opacity, box-shadow;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-out;
+}
+.input:hover {
+  background-color: #e2e8f0;
+}
+.input:focus {
+  background-color: #fff;
+  border: 2px solid #820082;
+}
+.addTodo_card {
+  box-shadow: none;
+  width: 80%;
+}
+.top_heading {
+  text-align: center;
+  margin-bottom: 2rem;
+  background: -webkit-linear-gradient(
+    rgba(130, 0, 130, 1) 35%,
+    rgba(105, 0, 255, 1) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-size: 2rem;
+}
+.top_heading h1 {
+  padding: 0;
+  margin: 0;
+}
+
+.input_wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  width: 20%;
+  color: white;
+  background: #820082;
+  border: 1px solid #820082;
+  font-size: 1.4rem;
+  font-weight: bolder;
+  cursor: pointer;
+  text-transform: uppercase;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-left: 5px;
+  transition: opacity 0.2s ease-out;
+}
+.button:hover {
+  opacity: 0.9;
+}
+
+@media only screen and (max-width: 768px) {
+  .top_heading {
+    font-size: 1.5rem;
+  }
+  .button {
+    font-size: 1.2;
+  }
+}
+@media only screen and (max-width: 468px) {
+  .top_heading {
+    font-size: 1.3rem;
+  }
+  .button {
+    font-size: 1rem;
+  }
+}

@@ -1,0 +1,31 @@
+.button_wrapper button {
+  background: white;
+  color: #820082;
+  border: 1px solid #820082;
+  font-size: 1rem;
+  padding: 5px 20px;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-left: 5px;
+  transition-property: background, color;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+}
+.button_wrapper > button:hover,
+.active {
+  background-color: #820082 !important;
+  color: #fff !important;
+}
+
+@media only screen and (max-width: 480px) {
+  .button_wrapper button {
+    padding: 5px 12px;
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 359px) {
+  .button_wrapper button {
+    padding: 5px 12px;
+    font-size: 12px;
+  }
+}

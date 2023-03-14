@@ -1,0 +1,8 @@
+{
+  "title": "Todo App",
+  "input_text": "Create a New Todo",
+  "add_button": "ADD",
+  "filter_button_array": ["All", "Active", "Completed"],
+  "task_remaining_one": "{{count}} task remaining",
+  "task_remaining_other": "{{count}} tasks remaining"
+}

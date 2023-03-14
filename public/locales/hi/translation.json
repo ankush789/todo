@@ -1,0 +1,8 @@
+{
+  "title": "टुडु ऍप",
+  "input_text": "एक नया टूडू बनाएं",
+  "add_button": "जोड़ें",
+  "filter_button_array": ["सब", "सक्रिय", "पूर्ण"],
+  "task_remaining_one": "{{count}} कार्य शेष",
+  "task_remaining_other": "{{count}} कार्य शेष"
+}

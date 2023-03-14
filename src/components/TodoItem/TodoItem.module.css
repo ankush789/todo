@@ -1,0 +1,32 @@
+.list_item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+.list_item:hover {
+  background-color: aliceblue;
+}
+.left {
+  display: flex;
+  align-items: center;
+}
+.right {
+  display: flex;
+}
+.left span:first-child {
+  display: flex;
+}
+.left span:last-child {
+  margin-left: 1rem;
+}
+.hr {
+  margin: 0;
+  padding: 0;
+  border-top: 1px solid #e9e8e8;
+  border-bottom: none;
+}
+.noFocus:focus {
+  outline: none;
+  border: none;
+}
